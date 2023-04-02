@@ -1,0 +1,17 @@
+name: environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - ipykernel
+  - scikit-learn
+  - tensorflow
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - torch
+    - monai
+    - requests
