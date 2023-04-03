@@ -10,6 +10,7 @@ dependencies:
   - tensorflow
   - pytorch
   - torchvision
+  - gensim
   - pip
   - pip:
     - torch
